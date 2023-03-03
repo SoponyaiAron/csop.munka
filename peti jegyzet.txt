@@ -16,7 +16,7 @@ tölgy
 szalagparketta
 kétrétegű
 
-fa szállító
+faszállító
 =======
 
 
