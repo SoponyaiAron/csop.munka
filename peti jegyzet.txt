@@ -7,11 +7,24 @@ barna
 szürke
 
 fa fajták/
+https://faipar.hu/cikkek/alapanyag/9674/alapanyag-fafajtak-a-magyar-puha-es-kemenyfa-fajtak-listaja
 bükk cseresznye 
 dio
 mahogoni
 tölgy
+<<<<<<< HEAD
 szalagparketta
 kétrétegű
 
 fa szállító
+=======
+
+
+
+parketta fajták/
+svéd parketta
+mozaik parketta
+csaphorgonyos parketta
+ipari parketta
+szalagparketta
+>>>>>>> f04457b7da6f66028c49e6fd139e0d93b7e2e921
