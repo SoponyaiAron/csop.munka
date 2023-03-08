@@ -1,0 +1,39 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.750);
+  height: 100vh;
+  padding: 50px;
+  color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #34676A;
+}
+
+h1{
+  padding-left: 19rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.carousel-item {
+  width: 150%;
+  height: 20vh;
+}
+
+.carousel-inner {
+  width: 150%;
+  height: 20vh;
+}
+
+.carousel-item img {
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+}
