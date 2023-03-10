@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Merriweather:ital,wght@1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.750);
+  height: 100%;
+  padding: 50px;
+  color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #34676A;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-family: 'Calistoga', cursive;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 50vh;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 50vh;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+p, nav{
+  font-family: 'Merriweather', serif;
+  
+}
+
+.footer {
+  background-color: #34676A;
+  text-align: center;
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.footer-nav li {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-nav {
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .footer-nav li {
+    display: block;
+  }
+}
+
+.szoveg{
+  padding-top: 20px;
+  text-align: center;
+}
+
+li{
+  padding-right: 30px;
+}
+
+.card-title{
+    color: black;
+}
