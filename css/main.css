@@ -55,6 +55,9 @@ p, nav{
   text-align: center;
   height: 10rem;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer p {
@@ -85,4 +88,13 @@ p, nav{
   .footer-nav li {
     display: block;
   }
+}
+
+.szoveg{
+  padding-top: 20px;
+  text-align: center;
+}
+
+li{
+  padding-right: 30px;
 }
