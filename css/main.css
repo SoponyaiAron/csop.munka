@@ -7,13 +7,17 @@
 
 .container {
   background-color: rgba(0, 0, 0, 0.750);
+  max-width: 1200px;
+  margin: 0 auto;
   height: 100%;
   padding: 50px;
   color: aliceblue;
+  overflow-x: auto;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 nav {
@@ -60,6 +64,30 @@ p, nav{
   
 }
 
+.szoveg{
+  padding-top: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(61, 61, 61);
+}
+
+tr:nth-child(even) {
+  background-color: #091e36;
+}
+
 .footer {
   background-color: #34676A;
   text-align: center;
@@ -68,6 +96,8 @@ p, nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: aliceblue;
+  box-sizing: border-box;
 }
 
 .footer p {
@@ -99,13 +129,3 @@ p, nav{
     display: block;
   }
 }
-
-.szoveg{
-  padding-top: 20px;
-  text-align: center;
-}
-
-li{
-  padding-right: 30px;
-}
-

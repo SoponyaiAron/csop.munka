@@ -111,6 +111,15 @@ p, nav{
   }
 }
 
-.card {
-  margin-bottom: 20px;
+.card{
+  border-radius: 200px;
+}
+
+.card-img-top {
+  border-radius: 200px;
+  size: 50px;
+}
+
+.card-body{
+  text-align: center;
 }
