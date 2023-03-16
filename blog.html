@@ -19,27 +19,63 @@
         </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="fooldal.html"> Barkács <img src="pics/clover-svgrepo-com.svg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <div class="navbar-nav">
-                <a style="color: #ffffff;" class="nav-link" href="fooldal.html">Főoldal</a>
-                <a style="color: #ffffff;" class="nav-link" href="festék.html ">Festékek</a>
-                <a style="color: #ffffff;" class="nav-link" href="fak.html">Faanyagok</a>
-                <a style="color: #ffffff;" class="nav-link" href="szerszámom.html">Szerszámok</a>
-                <a style="color: #e7994f;" class="nav-link active" href="blog.html">Blog</a>
-            </div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a class="navbar-brand" href="fooldal.html"> Barkács <img src="pics/clover-svgrepo-com.svg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <div class="navbar-nav">
+            <a style="color: #ffffff;" class="nav-link" href="fooldal.html">Főoldal</a>
+            <a style="color: #ffffff;" class="nav-link active" href="festék.html ">Festékek</a>
+            <a style="color: #ffffff;" class="nav-link" href="fak.html">Faanyagok</a>
+            <li class="nav-item dropdown">
+              <a style="color: #ffffff;" class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Szerszámok </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="furok.html">Fúrók</a>
+                  <a class="dropdown-item" href="#">Fűrészek</a>
+                  <a class="dropdown-item" href="#">Behajtók</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Munkavédelmi eszközök</a>
+              </div>
+          </li>
+            <a style="color: #e7994f;" class="nav-link" href="blog.html">Blog</a>
         </div>
-    </nav>
+    </div>
+</nav>
     <main class="container">
       <h1 class="my-5">Blog</h1>
         <div class="row intro">
             <div class="szoveg">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus nisi urna, a pulvinar est ullamcorper ut. Ut ornare leo eget fermentum porta. Maecenas eget ex scelerisque, egestas odio ac, varius turpis. Etiam in sollicitudin lacus, quis sollicitudin diam. Vivamus a cursus eros, et cursus nisl. Vivamus condimentum hendrerit sapien, eu finibus lectus porta eu. Aliquam at posuere lectus. Vestibulum elit felis, sagittis sed maximus id, bibendum ut ex. Suspendisse congue euismod est, eu vulputate velit volutpat at. Sed et finibus elit.            </p>
-            </div>
+            <a href="">
+              <div class="box">
+                <img src="image.jpg" alt="Image description" class="image">
+                <div class="text">
+                <h2>Címsor</h2>
+                <p>Rövid tartalom</p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="box">
+                <img src="image.jpg" alt="Image description" class="image">
+                <div class="text">
+                <h2>Címsor</h2>
+                <p>Rövid tartalom</p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="box">
+                <img src="image.jpg" alt="Image description" class="image">
+                <div class="text">
+                <h2>Címsor</h2>
+                <p>Rövid tartalom</p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>  
     </main>
     <footer class="footer">
